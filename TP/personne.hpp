@@ -3,7 +3,7 @@
 using namespace std;
 
 class Personne{
-	private :
+	protected :
 		string genre;
 		string prenom;
 		string nom;
@@ -12,7 +12,7 @@ class Personne{
 
 	public :
 		Personne(string genre, string prenom, string nom, unsigned char anneeNaissance, string statut);
-		Personne(const char *filename);
+		Personne(const char* filename);
 		~Personne();
 		
 		string getGenre();
@@ -31,7 +31,17 @@ class Personne{
 		void setGenre(string data);
 		
 		bool loadFromFile(const char* filename);
-		bool saveToFile(const char *filename);
-		
+		bool saveToFile(const char *filename);	
 	
 };
+
+class ExtPersonne : public Personne{
+
+	public :
+		ExtPersonne(string genre, string prenom, string nom, unsigned char anneeNaissance, string statut);
+		~ExtPersonne();
+
+		void afficheInformations_ext();
+	
+};
+
