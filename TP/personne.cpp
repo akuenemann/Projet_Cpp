@@ -6,6 +6,9 @@
 
 using namespace std;
 
+
+//**************Personne***************\\
+
 Personne::Personne(string data1, string data2, string data3, unsigned char data4, string data5){
 	genre = data1;
 	prenom = data2;
@@ -105,7 +108,8 @@ bool Personne::saveToFile(const char *filename){
 	return 0;
 }
 
-//******************************ExtPersonne
+
+//**************ExtPersonne***************\\
 
 ExtPersonne::ExtPersonne(string data1, string data2, string data3, unsigned char data4, string data5)
  : Personne( data1, data2, data3, data4, data5 ) {
@@ -200,16 +204,6 @@ int main(){
 	
 	delete p2;
 	delete p1;
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	return 0;
 }
