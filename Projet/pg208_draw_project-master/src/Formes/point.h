@@ -4,9 +4,8 @@
 #include <string>
 using namespace std;
 
-class Point{
-	private:
-		int x, y;
-		int R, V, B;
-		int transparence;
-}
+#include "carre.h"
+
+class Point : public CarreS{
+
+};
