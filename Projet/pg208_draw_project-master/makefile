@@ -6,7 +6,7 @@ LDFLAGS=
 
 EXEC=main
 
-SRC=./src/main.cpp \
+SRC=./src/main.cpp
 
 
 OBJ= $(SRC:.cpp=.o)
@@ -14,7 +14,7 @@ OBJ= $(SRC:.cpp=.o)
 all: $(EXEC)
 
 main: $(OBJ)
-	$(CC) $(CFLAGS) -o ./bin/$@ $^ $(LDFLAGS)
+	$(CC) $(CFLAGS) -o ./$@ $^ $(LDFLAGS)
 
 %.o: %.cpp
 	$(CC) $(CFLAGS) -o $@ -c $< $(CFLAGS)
@@ -22,7 +22,7 @@ main: $(OBJ)
 .PHONY: clean mrproper
 
 clean:
-	find ./bin -name main -exec rm {} \;
+	find ./ -name main -exec rm {} \;
 	find ./src -name *.o  -exec rm {} \;
 
 mrproper: clean

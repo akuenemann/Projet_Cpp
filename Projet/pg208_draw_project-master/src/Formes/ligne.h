@@ -4,6 +4,7 @@
 #include <string>
 
 #include "forme.h"
+#include "../Image/CImage.h"
 
 using namespace std;
 

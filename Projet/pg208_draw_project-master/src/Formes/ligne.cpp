@@ -3,8 +3,8 @@
 #include <iostream>
 #include <string>
 
-#include "ligne.h"
 #include "../Image/CImage.h"
+#include "ligne.h"
 
 using namespace std;
 
