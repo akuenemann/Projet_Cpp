@@ -6,7 +6,13 @@ LDFLAGS=
 
 EXEC=main
 
-SRC=./src/main.cpp
+SRC=./src/main.cpp \
+./src/Format/CBitmap.cpp \
+./src/Image/CImage.cpp \
+./src/Image/CLigne.cpp \
+./src/Image/CPixel.cpp \
+./src/Formes/ligne.cpp \
+./src/Formes/forme.cpp
 
 
 OBJ= $(SRC:.cpp=.o)
@@ -17,7 +23,7 @@ main: $(OBJ)
 	$(CC) $(CFLAGS) -o ./$@ $^ $(LDFLAGS)
 
 %.o: %.cpp
-	$(CC) $(CFLAGS) -o $@ -c $< $(CFLAGS)
+	$(CC) $(CFLAGS) -o $@ -c $<
 
 .PHONY: clean mrproper
 
