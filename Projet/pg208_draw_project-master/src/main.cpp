@@ -19,14 +19,14 @@ int main(int argc, char * argv[]) {
     string filename2 = "Sortie.bmp";
 
     cout << "(II) CImage pointer extraction" << endl;
-    CImage   *img = new CImage(1000, 1000);
+    CImage   *img = new CImage(200, 200);
     /*for(int i=0; i<200; i++){
         CPixel *p = img->getPixel(i, i);
         p->RGB(255,255,255);
     }*/
-	
-	
-	Ligne* first_ligne = new Ligne(100,900,900,900,255,255,255,100,1);
+
+
+	Ligne* first_ligne = new Ligne(5,25,125,75,255,255,255,100,1);
 	first_ligne->dessiner(img);
 	/*Ligne* next_ligne = new Ligne(180,10,180,10,255,255,255,100,1);
 	next_ligne->resize(10);
@@ -35,6 +35,6 @@ int main(int argc, char * argv[]) {
     image->setImage( img );
     cout << "(II) CBitmap image saving" << endl;
     image->SaveBMP(filename2);
-
+    delete (first_ligne);
     return 1;
 }
