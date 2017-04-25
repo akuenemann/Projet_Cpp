@@ -92,6 +92,7 @@ void RectangleS::dessiner(CImage *image){
         float coef = (float) (c / (float) b);
         int offset = y - coef*x;
         for(int i = 0 ; i < largeur ; i++){
+            Ligne* l = new Ligne((int) (((float)(y+i-offset)/coef)), y+i, (int) (((float)(y+i-offset)/coef)) + d, y+i - a, R, V, B, transparence, z);
             l->dessiner(image);
             delete(l);
         }
