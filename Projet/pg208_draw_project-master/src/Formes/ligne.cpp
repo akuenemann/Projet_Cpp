@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <iostream>
 #include <string>
+#include <cmath>
 
 #include "../Image/CImage.h"
 #include "ligne.h"
@@ -28,7 +29,8 @@ Ligne::~Ligne(){}
 
 void Ligne::dessiner(CImage* image){
 	int minx = (x<=x2)?x:x2;
-	int Maxx = (x>=x2)?x:x2;
+	int maxx = (x>=x2)?x:x2;
+
 
 	bool s = false;
 
@@ -46,8 +48,6 @@ void Ligne::dessiner(CImage* image){
 		}
 	}
 	else if (y2 == y){
-		int minx   = (x<=x2)?x:x2;
-		int maxx   = (x>=x2)?x:x2;
 		for (int x_courant = minx ; x_courant < maxx ; x_courant++){
 			for (int i  = 0; i <= epaisseur ; i++){
 					CPixel* pix = image->getPixel(x_courant,y-i);
@@ -59,42 +59,30 @@ void Ligne::dessiner(CImage* image){
 		}
 	}
 	else{
-		if ( (y2 - y)/(x2 - x) < 1){
-			swap(&x, &y);
-			swap(&x2, &y2);
-			s = true;
-		}
-
-		float coef = (y2 - y)/(x2 - x);
+		float coef = (y2 - y)/(float)(x2 - x);
 		float offset = y - coef * x;
-		int minx   = (x<=x2)?x:x2;
-		int maxx   = (x>=x2)?x:x2;
+
+        int extension = 1;
+
+        if ( abs( (float) coef) > 1.0f ){
+            extension = abs((int) coef*epaisseur);
+        }
+        else{
+            extension = epaisseur;
+        }
 
 		int y_courant = 0;
 		for (int x_courant = minx ; x_courant < maxx ; x_courant++){
 			y_courant = coef*x_courant + offset;
-			if(!s){
-				for (int i  = 0; i <=  abs((int) coef*epaisseur); i++){
-					for(int j = 0 ; j <= abs((int)coef*epaisseur) ; j++){
-						CPixel* pix = image->getPixel(x_courant+i,y_courant-j);
+				for (int i  = 0; i <=  epaisseur;  i++){
+					for(int j = 0 ; j <= extension ; j++){
+						CPixel* pix = image->getPixel(x_courant+i,y_courant+j);
 						int rouge   = (pix->Red()*(100-transparence)+transparence*R)/100;
 						int vert    = (pix->Green()*(100-transparence)+transparence*V)/100;
 						int bleu    = (pix->Blue()*(100-transparence)+transparence*B)/100;
 						pix->RGB(rouge,vert,bleu);
 					}
 				}
-			}
-			else{
-				for (int i  = 0; i <= abs((int)coef*epaisseur); i++){
-					for(int j = 0 ; j <= abs((int)coef*epaisseur) ; j++){
-						CPixel* pix = image->getPixel(y_courant+i,x_courant-j);
-						int rouge = (pix->Red()*(100-transparence)+transparence*R)/100;
-						int vert = (pix->Green()*(100-transparence)+transparence*V)/100;
-						int bleu = (pix->Blue()*(100-transparence)+transparence*B)/100;
-						pix->RGB(rouge,vert,bleu);
-					}
-				}
-			}
 		}
 	}
 }
@@ -102,5 +90,12 @@ void Ligne::dessiner(CImage* image){
 
 
 void Ligne::resize(int echelle){
-	epaisseur = echelle;
+	epaisseur = epaisseur * echelle;
+}
+
+void Ligne::set_coord(int xi, int yi, int xf, int yf ){
+    x = xi;
+    y = yi;
+    x2 = xf;
+    y2 = yf;
 }

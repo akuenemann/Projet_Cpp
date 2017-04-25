@@ -7,21 +7,25 @@
 
 using namespace std;
 
-class Rectangle : public Ligne{
+class Rectangle : public Forme{
 	protected:
-		Ligne* bord[4];
-
+		int angled;
+		int longueur;
+		int largeur;
 	public:
 		Rectangle();
-		Rectangle(int _x,int _y,int _R,int _V,int _B,int _transparence):Forme(_x, _y,_R,_V,_B,_transparence,_z);
+		Rectangle(int _x,int _y, int _longueur, int _largeur, int _angled, int _R,int _V,int _B,int _transparence, int _z);
 		~Rectangle();
 
-		void tracerRectangle();
-		void resizeRectangle(int echelle);
+		void dessiner(CImage* image);
+		void resize(int echelle);
 };
 
 
 class RectangleS : public Rectangle{
 	public:
-		void colorierRectangleS();
+		RectangleS();
+		RectangleS(int _x,int _y, int _longueur, int _largeur, int _angled, int _R,int _V,int _B,int _transparence, int _z);
+		~RectangleS();
+		void dessiner(CImage *image);
 };

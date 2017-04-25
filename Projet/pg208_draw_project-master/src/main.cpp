@@ -7,7 +7,7 @@
 using namespace std;
 
 #include "./Format/CBitmap.h"
-#include "./Formes/ligne.h"
+#include "./Formes/rectangle.h"
 
 
 int main(int argc, char * argv[]) {
@@ -19,22 +19,25 @@ int main(int argc, char * argv[]) {
     string filename2 = "Sortie.bmp";
 
     cout << "(II) CImage pointer extraction" << endl;
-    CImage   *img = new CImage(200, 200);
-    /*for(int i=0; i<200; i++){
-        CPixel *p = img->getPixel(i, i);
-        p->RGB(255,255,255);
-    }*/
+    CImage   *img = new CImage(500, 500);
+
+    for (int j = 0; j<500; j++) {
+        for (int i = 0; i < 500; i++) {
+            CPixel *p = img->getPixel(i, j);
+            p->RGB(255, 255, 255);
+        }
+    }
+
+    RectangleS* rect = new RectangleS(200,200,100,50,25,0,0,255,100,0);
+    //rect->resize(2);
+    rect->dessiner(img);
+    delete(rect);
 
 
-	Ligne* first_ligne = new Ligne(5,25,125,75,255,255,255,100,1);
-	first_ligne->dessiner(img);
-	/*Ligne* next_ligne = new Ligne(180,10,180,10,255,255,255,100,1);
-	next_ligne->resize(10);
-	next_ligne->dessiner(img);
-*/
+
     image->setImage( img );
     cout << "(II) CBitmap image saving" << endl;
     image->SaveBMP(filename2);
-    delete (first_ligne);
+
     return 1;
 }

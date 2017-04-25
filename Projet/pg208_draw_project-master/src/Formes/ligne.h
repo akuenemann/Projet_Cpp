@@ -19,4 +19,5 @@ class Ligne : public Forme{
 
 		void dessiner(CImage* image);
 		void resize(int echelle);
+		void set_coord(int xi, int yi, int xf, int yf );
 };
