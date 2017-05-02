@@ -4,19 +4,19 @@
 #include <string>
 using namespace std;
 
-#include "forme.h"
+#include "cercle.h"
 
-class Arc : public Forme{
-	protected:
-		int rayon;
+class Arc : public Cercle{
+	private:
 		int angle1;
 		int angle2;
-
+		
 	public:
 		Arc();
-		Arc(int _x,int _y,int _rayon,int _angle1,int angle2,int _R,int _V,int _B,int _transparence, int _z):Forme(_x, _y,_R,_V,_B,_transparence,_z);
-		~Arc();
+		Arc(int _x,int _y,int _rayon,int _angle1,int _angle2,int _R,int _V,int _B,int _transparence, int _z);
 
-		void tracerArc();
-		void resizeArc(int echelle);
+		void dessiner(CImage* image);
+		void resize(int echelle);
 };
+
+

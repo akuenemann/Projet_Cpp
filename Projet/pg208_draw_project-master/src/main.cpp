@@ -7,7 +7,8 @@
 using namespace std;
 
 #include "./Format/CBitmap.h"
-#include "./Formes/rectangle.h"
+
+#include "./Formes/arc.h"
 
 
 int main(int argc, char * argv[]) {
@@ -28,10 +29,9 @@ int main(int argc, char * argv[]) {
         }
     }
 
-    RectangleS* rect = new RectangleS(200,200,100,50,25,0,0,255,100,0);
-    //rect->resize(2);
-    rect->dessiner(img);
-    delete(rect);
+    Arc* myarc = new Arc(250,250,100,330,320,0,0,255,100,0);
+    myarc->dessiner(img);
+    delete(myarc);
 
 
 

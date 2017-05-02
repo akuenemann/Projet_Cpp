@@ -7,6 +7,23 @@ CMakeFiles/pg208_draw_project_master.dir/src/Format/CBitmap.cpp.obj: ../src/Imag
 CMakeFiles/pg208_draw_project_master.dir/src/Format/CBitmap.cpp.obj: ../src/Image/CLigne.h
 CMakeFiles/pg208_draw_project_master.dir/src/Format/CBitmap.cpp.obj: ../src/Image/CPixel.h
 
+
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.obj: ../src/Formes/carre.cpp
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.obj: ../src/Formes/carre.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.obj: ../src/Formes/forme.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.obj: ../src/Formes/ligne.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.obj: ../src/Formes/rectangle.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.obj: ../src/Image/CImage.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.obj: ../src/Image/CLigne.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.obj: ../src/Image/CPixel.h
+
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/cercle.cpp.obj: ../src/Formes/cercle.cpp
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/cercle.cpp.obj: ../src/Formes/cercle.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/cercle.cpp.obj: ../src/Formes/forme.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/cercle.cpp.obj: ../src/Image/CImage.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/cercle.cpp.obj: ../src/Image/CLigne.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/cercle.cpp.obj: ../src/Image/CPixel.h
+
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/forme.cpp.obj: ../src/Formes/forme.cpp
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/forme.cpp.obj: ../src/Formes/forme.h
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/forme.cpp.obj: ../src/Image/CImage.h
@@ -19,6 +36,16 @@ CMakeFiles/pg208_draw_project_master.dir/src/Formes/ligne.cpp.obj: ../src/Formes
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/ligne.cpp.obj: ../src/Image/CImage.h
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/ligne.cpp.obj: ../src/Image/CLigne.h
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/ligne.cpp.obj: ../src/Image/CPixel.h
+
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.obj: ../src/Formes/carre.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.obj: ../src/Formes/forme.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.obj: ../src/Formes/ligne.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.obj: ../src/Formes/point.cpp
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.obj: ../src/Formes/point.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.obj: ../src/Formes/rectangle.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.obj: ../src/Image/CImage.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.obj: ../src/Image/CLigne.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.obj: ../src/Image/CPixel.h
 
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.obj: ../src/Formes/forme.h
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.obj: ../src/Formes/ligne.h
@@ -41,9 +68,9 @@ CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.obj: ../src/Image/
 CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.obj: ../src/Image/CPixel.h
 
 CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj: ../src/./Format/CBitmap.h
+CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj: ../src/./Formes/arc.h
+CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj: ../src/./Formes/cercle.h
 CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj: ../src/./Formes/forme.h
-CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj: ../src/./Formes/ligne.h
-CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj: ../src/./Formes/rectangle.h
 CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj: ../src/./Image/CImage.h
 CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj: ../src/./Image/CLigne.h
 CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj: ../src/./Image/CPixel.h

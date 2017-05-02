@@ -20,7 +20,7 @@ fstream
 ../Image/CImage.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Image/CImage.h
 
-C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Formes/forme.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Formes/arc.h
 stdio.h
 -
 stdlib.h
@@ -29,10 +29,10 @@ iostream
 -
 string
 -
-../Image/CImage.h
-C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Image/CImage.h
+cercle.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Formes/cercle.h
 
-C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Formes/ligne.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Formes/cercle.h
 stdio.h
 -
 stdlib.h
@@ -43,10 +43,8 @@ string
 -
 forme.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Formes/forme.h
-../Image/CImage.h
-C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Image/CImage.h
 
-C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Formes/rectangle.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Formes/forme.h
 stdio.h
 -
 stdlib.h
@@ -55,8 +53,8 @@ iostream
 -
 string
 -
-ligne.h
-C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Formes/ligne.h
+../Image/CImage.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Image/CImage.h
 
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Image/CImage.h
 stdio.h
@@ -109,6 +107,54 @@ fstream
 -
 ../Image/CImage.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Image/CImage.h
+
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/carre.cpp
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+carre.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/carre.h
+
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/carre.h
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+rectangle.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/rectangle.h
+
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/cercle.cpp
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+cercle.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/cercle.h
+
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/cercle.h
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+forme.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/forme.h
 
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/forme.cpp
 stdio.h
@@ -163,6 +209,30 @@ forme.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/forme.h
 ../Image/CImage.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Image/CImage.h
+
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/point.cpp
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+point.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/point.h
+
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/point.h
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+carre.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/carre.h
 
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/rectangle.cpp
 stdio.h
@@ -249,6 +319,6 @@ string
 -
 ./Format/CBitmap.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Format/CBitmap.h
-./Formes/rectangle.h
-C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Formes/rectangle.h
+./Formes/arc.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Formes/arc.h
 

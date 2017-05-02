@@ -88,6 +88,24 @@
 		<Unit filename="C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Format/CBitmap.h">
 			<Option target="pg208_draw_project_master"/>
 		</Unit>
+		<Unit filename="C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/arc.cpp">
+			<Option target="pg208_draw_project_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/arc.h">
+			<Option target="pg208_draw_project_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/carre.cpp">
+			<Option target="pg208_draw_project_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/carre.h">
+			<Option target="pg208_draw_project_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/cercle.cpp">
+			<Option target="pg208_draw_project_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/cercle.h">
+			<Option target="pg208_draw_project_master"/>
+		</Unit>
 		<Unit filename="C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/forme.cpp">
 			<Option target="pg208_draw_project_master"/>
 		</Unit>
@@ -98,6 +116,12 @@
 			<Option target="pg208_draw_project_master"/>
 		</Unit>
 		<Unit filename="C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/ligne.h">
+			<Option target="pg208_draw_project_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/point.cpp">
+			<Option target="pg208_draw_project_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/point.h">
 			<Option target="pg208_draw_project_master"/>
 		</Unit>
 		<Unit filename="C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/rectangle.cpp">

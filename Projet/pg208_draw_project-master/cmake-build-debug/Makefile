@@ -149,6 +149,87 @@ src/Format/CBitmap.cpp.s:
 	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Format/CBitmap.cpp.s
 .PHONY : src/Format/CBitmap.cpp.s
 
+src/Formes/arc.obj: src/Formes/arc.cpp.obj
+
+.PHONY : src/Formes/arc.obj
+
+# target to build an object file
+src/Formes/arc.cpp.obj:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.obj
+.PHONY : src/Formes/arc.cpp.obj
+
+src/Formes/arc.i: src/Formes/arc.cpp.i
+
+.PHONY : src/Formes/arc.i
+
+# target to preprocess a source file
+src/Formes/arc.cpp.i:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.i
+.PHONY : src/Formes/arc.cpp.i
+
+src/Formes/arc.s: src/Formes/arc.cpp.s
+
+.PHONY : src/Formes/arc.s
+
+# target to generate assembly for a file
+src/Formes/arc.cpp.s:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.s
+.PHONY : src/Formes/arc.cpp.s
+
+src/Formes/carre.obj: src/Formes/carre.cpp.obj
+
+.PHONY : src/Formes/carre.obj
+
+# target to build an object file
+src/Formes/carre.cpp.obj:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.obj
+.PHONY : src/Formes/carre.cpp.obj
+
+src/Formes/carre.i: src/Formes/carre.cpp.i
+
+.PHONY : src/Formes/carre.i
+
+# target to preprocess a source file
+src/Formes/carre.cpp.i:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.i
+.PHONY : src/Formes/carre.cpp.i
+
+src/Formes/carre.s: src/Formes/carre.cpp.s
+
+.PHONY : src/Formes/carre.s
+
+# target to generate assembly for a file
+src/Formes/carre.cpp.s:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.s
+.PHONY : src/Formes/carre.cpp.s
+
+src/Formes/cercle.obj: src/Formes/cercle.cpp.obj
+
+.PHONY : src/Formes/cercle.obj
+
+# target to build an object file
+src/Formes/cercle.cpp.obj:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/cercle.cpp.obj
+.PHONY : src/Formes/cercle.cpp.obj
+
+src/Formes/cercle.i: src/Formes/cercle.cpp.i
+
+.PHONY : src/Formes/cercle.i
+
+# target to preprocess a source file
+src/Formes/cercle.cpp.i:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/cercle.cpp.i
+.PHONY : src/Formes/cercle.cpp.i
+
+src/Formes/cercle.s: src/Formes/cercle.cpp.s
+
+.PHONY : src/Formes/cercle.s
+
+# target to generate assembly for a file
+src/Formes/cercle.cpp.s:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/cercle.cpp.s
+.PHONY : src/Formes/cercle.cpp.s
+
 src/Formes/forme.obj: src/Formes/forme.cpp.obj
 
 .PHONY : src/Formes/forme.obj
@@ -202,6 +283,33 @@ src/Formes/ligne.s: src/Formes/ligne.cpp.s
 src/Formes/ligne.cpp.s:
 	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/ligne.cpp.s
 .PHONY : src/Formes/ligne.cpp.s
+
+src/Formes/point.obj: src/Formes/point.cpp.obj
+
+.PHONY : src/Formes/point.obj
+
+# target to build an object file
+src/Formes/point.cpp.obj:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.obj
+.PHONY : src/Formes/point.cpp.obj
+
+src/Formes/point.i: src/Formes/point.cpp.i
+
+.PHONY : src/Formes/point.i
+
+# target to preprocess a source file
+src/Formes/point.cpp.i:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.i
+.PHONY : src/Formes/point.cpp.i
+
+src/Formes/point.s: src/Formes/point.cpp.s
+
+.PHONY : src/Formes/point.s
+
+# target to generate assembly for a file
+src/Formes/point.cpp.s:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.s
+.PHONY : src/Formes/point.cpp.s
 
 src/Formes/rectangle.obj: src/Formes/rectangle.cpp.obj
 
@@ -350,12 +458,24 @@ help:
 	@echo ... src/Format/CBitmap.obj
 	@echo ... src/Format/CBitmap.i
 	@echo ... src/Format/CBitmap.s
+	@echo ... src/Formes/arc.obj
+	@echo ... src/Formes/arc.i
+	@echo ... src/Formes/arc.s
+	@echo ... src/Formes/carre.obj
+	@echo ... src/Formes/carre.i
+	@echo ... src/Formes/carre.s
+	@echo ... src/Formes/cercle.obj
+	@echo ... src/Formes/cercle.i
+	@echo ... src/Formes/cercle.s
 	@echo ... src/Formes/forme.obj
 	@echo ... src/Formes/forme.i
 	@echo ... src/Formes/forme.s
 	@echo ... src/Formes/ligne.obj
 	@echo ... src/Formes/ligne.i
 	@echo ... src/Formes/ligne.s
+	@echo ... src/Formes/point.obj
+	@echo ... src/Formes/point.i
+	@echo ... src/Formes/point.s
 	@echo ... src/Formes/rectangle.obj
 	@echo ... src/Formes/rectangle.i
 	@echo ... src/Formes/rectangle.s
