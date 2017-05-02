@@ -2,11 +2,10 @@
 #include <stdlib.h>
 #include <iostream>
 #include <string>
-#include <c++/4.8.3/cmath>
 
 using namespace std;
 
-#include "Triangle.h"
+#include "triangle.h"
 
 Triangle::Triangle() {
     int x1 = 0;

@@ -86,6 +86,12 @@ iostream
 string
 -
 
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Traitement/traitement.h
+c++/4.8.3/vector
+-
+../Formes/forme.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Formes/forme.h
+
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Format/CBitmap.cpp
 CBitmap.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Format/CBitmap.h
@@ -103,10 +109,6 @@ fstream
 -
 ../Image/CImage.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Image/CImage.h
-
-C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/Triangle.h
-ligne.h
-C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/ligne.h
 
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/arc.cpp
 stdio.h
@@ -239,8 +241,12 @@ string
 -
 c++/4.8.3/cmath
 -
-Triangle.h
-C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/Triangle.h
+triangle.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/triangle.h
+
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/triangle.h
+ligne.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/ligne.h
 
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Image/CImage.cpp
 CImage.h
@@ -288,6 +294,46 @@ iostream
 string
 -
 
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Traitement/traitement.cpp
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+cmath
+-
+fstream
+-
+c++/4.8.3/sstream
+-
+traitement.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Traitement/traitement.h
+../Formes/forme.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/forme.h
+../Formes/arc.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/arc.h
+../Formes/carre.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/carre.h
+../Formes/cercle.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/cercle.h
+../Formes/ligne.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/ligne.h
+../Formes/point.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/point.h
+../Formes/rectangle.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/rectangle.h
+../Formes/triangle.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/triangle.h
+
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Traitement/traitement.h
+c++/4.8.3/vector
+-
+../Formes/forme.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/forme.h
+
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/main.cpp
 stdio.h
 -
@@ -317,4 +363,6 @@ C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_proj
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Formes/rectangle.h
 ./Formes/triangle.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Formes/triangle.h
+./Traitement/traitement.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Traitement/traitement.h
 

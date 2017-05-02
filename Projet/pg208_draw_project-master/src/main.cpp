@@ -17,6 +17,8 @@ using namespace std;
 #include "./Formes/rectangle.h"
 #include "./Formes/triangle.h"
 
+#include "./Traitement/traitement.h"
+
 
 int main(int argc, char * argv[]) {
     cout << "(II) P_Bitmap exection start (" << __DATE__ << " - " << __TIME__ << ")" << endl;

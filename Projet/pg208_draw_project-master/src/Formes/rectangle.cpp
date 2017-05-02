@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <iostream>
 #include <string>
-#include <c++/4.8.3/cmath>
+#include <cmath>
 
 using namespace std;
 

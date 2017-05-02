@@ -446,6 +446,33 @@ src/Image/CPixel.cpp.s:
 	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.s
 .PHONY : src/Image/CPixel.cpp.s
 
+src/Traitement/traitement.obj: src/Traitement/traitement.cpp.obj
+
+.PHONY : src/Traitement/traitement.obj
+
+# target to build an object file
+src/Traitement/traitement.cpp.obj:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Traitement/traitement.cpp.obj
+.PHONY : src/Traitement/traitement.cpp.obj
+
+src/Traitement/traitement.i: src/Traitement/traitement.cpp.i
+
+.PHONY : src/Traitement/traitement.i
+
+# target to preprocess a source file
+src/Traitement/traitement.cpp.i:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Traitement/traitement.cpp.i
+.PHONY : src/Traitement/traitement.cpp.i
+
+src/Traitement/traitement.s: src/Traitement/traitement.cpp.s
+
+.PHONY : src/Traitement/traitement.s
+
+# target to generate assembly for a file
+src/Traitement/traitement.cpp.s:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Traitement/traitement.cpp.s
+.PHONY : src/Traitement/traitement.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -518,6 +545,9 @@ help:
 	@echo ... src/Image/CPixel.obj
 	@echo ... src/Image/CPixel.i
 	@echo ... src/Image/CPixel.s
+	@echo ... src/Traitement/traitement.obj
+	@echo ... src/Traitement/traitement.i
+	@echo ... src/Traitement/traitement.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

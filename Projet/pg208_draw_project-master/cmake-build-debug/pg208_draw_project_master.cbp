@@ -154,6 +154,12 @@
 		<Unit filename="C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Image/CPixel.h">
 			<Option target="pg208_draw_project_master"/>
 		</Unit>
+		<Unit filename="C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Traitement/traitement.cpp">
+			<Option target="pg208_draw_project_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Traitement/traitement.h">
+			<Option target="pg208_draw_project_master"/>
+		</Unit>
 		<Unit filename="C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/main.cpp">
 			<Option target="pg208_draw_project_master"/>
 		</Unit>

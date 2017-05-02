@@ -12,6 +12,13 @@ SRC=./src/main.cpp \
 ./src/Image/CLigne.cpp \
 ./src/Image/CPixel.cpp \
 ./src/Formes/ligne.cpp \
+./src/Formes/carre.cpp \
+./src/Formes/rectangle.cpp \
+./src/Formes/triangle.cpp \
+./src/Formes/arc.cpp \
+./src/Formes/cercle.cpp \
+./src/Formes/point.cpp \
+./src/Traitement/traitement.cpp \
 ./src/Formes/forme.cpp
 
 

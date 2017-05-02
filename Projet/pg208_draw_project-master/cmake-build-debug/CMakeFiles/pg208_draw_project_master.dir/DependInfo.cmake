@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Image/CImage.cpp" "C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/cmake-build-debug/CMakeFiles/pg208_draw_project_master.dir/src/Image/CImage.cpp.obj"
   "C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Image/CLigne.cpp" "C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/cmake-build-debug/CMakeFiles/pg208_draw_project_master.dir/src/Image/CLigne.cpp.obj"
   "C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Image/CPixel.cpp" "C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/cmake-build-debug/CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.obj"
+  "C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Traitement/traitement.cpp" "C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/cmake-build-debug/CMakeFiles/pg208_draw_project_master.dir/src/Traitement/traitement.cpp.obj"
   "C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/main.cpp" "C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/cmake-build-debug/CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
