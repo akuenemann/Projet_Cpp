@@ -8,7 +8,14 @@ using namespace std;
 
 #include "./Format/CBitmap.h"
 
+#include "./Formes/forme.h"
 #include "./Formes/arc.h"
+#include "./Formes/carre.h"
+#include "./Formes/cercle.h"
+#include "./Formes/ligne.h"
+#include "./Formes/point.h"
+#include "./Formes/rectangle.h"
+#include "./Formes/triangle.h"
 
 
 int main(int argc, char * argv[]) {
@@ -29,9 +36,27 @@ int main(int argc, char * argv[]) {
         }
     }
 
-    Arc* myarc = new Arc(250,250,100,300,320,0,0,255,100,0);
+    Arc* myarc = new Arc(250,250,100,150,320,0,0,255,100,0);
     myarc->dessiner(img);
     delete(myarc);
+    Carre* mycarre = new Carre(1,1,100,0,0,0,255,100,0);
+    mycarre->dessiner(img);
+    delete(mycarre);
+    Cercle* mycercle = new Cercle(250,250,50,0,0,255,100,0);
+    mycercle->dessiner(img);
+    delete(mycercle);
+    Ligne* myligne = new Ligne(50,50,100,100,0,0,255,100,0);
+    myligne->dessiner(img);
+    delete(myligne);
+    Point* mypoint = new Point(450,450,0,0,255,100,0);
+    mypoint->dessiner(img);
+    delete(mypoint);
+    Rectangle* myrectangle = new Rectangle(100,400,120,80,0,0,0,255,100,0);
+    myrectangle->dessiner(img);
+    delete(myrectangle);
+    Triangle* mytriangle = new Triangle(1,1,5,30,70,100,0,0,255,100,0);
+    mytriangle->dessiner(img);
+    delete(mytriangle);
 
 
 

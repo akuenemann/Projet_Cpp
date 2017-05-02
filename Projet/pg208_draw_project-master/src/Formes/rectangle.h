@@ -1,11 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <iostream>
-#include <string>
+#ifndef RECTANGLE
+#define RECTANGLE
 
 #include "ligne.h"
 
-using namespace std;
 
 class Rectangle : public Forme{
 	protected:
@@ -29,3 +26,5 @@ class RectangleS : public Rectangle{
 		~RectangleS();
 		void dessiner(CImage *image);
 };
+
+#endif

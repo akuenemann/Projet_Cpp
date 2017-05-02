@@ -1,8 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <iostream>
-#include <string>
-using namespace std;
+#ifndef CERCLE
+#define CERCLE
 
 #include "forme.h"
 
@@ -28,3 +25,5 @@ class CercleS : public Cercle{
 
 
 };
+
+#endif

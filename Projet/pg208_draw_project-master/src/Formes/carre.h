@@ -1,8 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <iostream>
-#include <string>
-using namespace std;
+#ifndef CARRE
+#define CARRE
 
 #include "rectangle.h"
 
@@ -20,3 +17,5 @@ class CarreS : public RectangleS{
 		CarreS(int _x,int _y, int _cote, int _angled, int _R,int _V,int _B,int _transparence, int _z);
 		~CarreS();
 };
+
+#endif

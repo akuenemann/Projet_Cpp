@@ -338,6 +338,33 @@ src/Formes/rectangle.cpp.s:
 	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.s
 .PHONY : src/Formes/rectangle.cpp.s
 
+src/Formes/triangle.obj: src/Formes/triangle.cpp.obj
+
+.PHONY : src/Formes/triangle.obj
+
+# target to build an object file
+src/Formes/triangle.cpp.obj:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj
+.PHONY : src/Formes/triangle.cpp.obj
+
+src/Formes/triangle.i: src/Formes/triangle.cpp.i
+
+.PHONY : src/Formes/triangle.i
+
+# target to preprocess a source file
+src/Formes/triangle.cpp.i:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.i
+.PHONY : src/Formes/triangle.cpp.i
+
+src/Formes/triangle.s: src/Formes/triangle.cpp.s
+
+.PHONY : src/Formes/triangle.s
+
+# target to generate assembly for a file
+src/Formes/triangle.cpp.s:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.s
+.PHONY : src/Formes/triangle.cpp.s
+
 src/Image/CImage.obj: src/Image/CImage.cpp.obj
 
 .PHONY : src/Image/CImage.obj
@@ -479,6 +506,9 @@ help:
 	@echo ... src/Formes/rectangle.obj
 	@echo ... src/Formes/rectangle.i
 	@echo ... src/Formes/rectangle.s
+	@echo ... src/Formes/triangle.obj
+	@echo ... src/Formes/triangle.i
+	@echo ... src/Formes/triangle.s
 	@echo ... src/Image/CImage.obj
 	@echo ... src/Image/CImage.i
 	@echo ... src/Image/CImage.s

@@ -1,8 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <iostream>
-#include <string>
-using namespace std;
+#ifndef ARC
+#define ARC
 
 #include "cercle.h"
 
@@ -19,4 +16,4 @@ class Arc : public Cercle{
 		void resize(int echelle);
 };
 
-
+#endif

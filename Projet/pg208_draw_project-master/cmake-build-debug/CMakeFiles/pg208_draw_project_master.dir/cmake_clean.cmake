@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/pg208_draw_project_master.dir/src/Formes/forme.cpp.obj"
   "CMakeFiles/pg208_draw_project_master.dir/src/Formes/cercle.cpp.obj"
   "CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.obj"
+  "CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj"
   "CMakeFiles/pg208_draw_project_master.dir/src/Formes/ligne.cpp.obj"
   "CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.obj"
   "CMakeFiles/pg208_draw_project_master.dir/src/Image/CImage.cpp.obj"

@@ -1,12 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <iostream>
-#include <string>
+#ifndef LIGNE
+#define LIGNE
 
 #include "forme.h"
-#include "../Image/CImage.h"
-
-using namespace std;
 
 class Ligne : public Forme{
 	private:
@@ -21,3 +16,5 @@ class Ligne : public Forme{
 		void resize(int echelle);
 		void set_coord(int xi, int yi, int xf, int yf );
 };
+
+#endif

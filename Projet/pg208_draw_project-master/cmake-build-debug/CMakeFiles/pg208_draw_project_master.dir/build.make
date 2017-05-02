@@ -176,9 +176,33 @@ CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.obj.provides: CMakeF
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.obj.provides.build: CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.obj
 
 
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj: CMakeFiles/pg208_draw_project_master.dir/flags.make
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj: ../src/Formes/triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj"
+	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pg208_draw_project_master.dir\src\Formes\triangle.cpp.obj -c C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\src\Formes\triangle.cpp
+
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.i"
+	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\src\Formes\triangle.cpp > CMakeFiles\pg208_draw_project_master.dir\src\Formes\triangle.cpp.i
+
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.s"
+	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\src\Formes\triangle.cpp -o CMakeFiles\pg208_draw_project_master.dir\src\Formes\triangle.cpp.s
+
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj.requires:
+
+.PHONY : CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj.requires
+
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj.provides: CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj.provides.build
+.PHONY : CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj.provides
+
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj.provides.build: CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj
+
+
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/ligne.cpp.obj: CMakeFiles/pg208_draw_project_master.dir/flags.make
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/ligne.cpp.obj: ../src/Formes/ligne.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pg208_draw_project_master.dir/src/Formes/ligne.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pg208_draw_project_master.dir/src/Formes/ligne.cpp.obj"
 	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pg208_draw_project_master.dir\src\Formes\ligne.cpp.obj -c C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\src\Formes\ligne.cpp
 
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/ligne.cpp.i: cmake_force
@@ -202,7 +226,7 @@ CMakeFiles/pg208_draw_project_master.dir/src/Formes/ligne.cpp.obj.provides.build
 
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.obj: CMakeFiles/pg208_draw_project_master.dir/flags.make
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.obj: ../src/Formes/rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.obj"
 	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pg208_draw_project_master.dir\src\Formes\rectangle.cpp.obj -c C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\src\Formes\rectangle.cpp
 
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.i: cmake_force
@@ -226,7 +250,7 @@ CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.obj.provides.b
 
 CMakeFiles/pg208_draw_project_master.dir/src/Image/CImage.cpp.obj: CMakeFiles/pg208_draw_project_master.dir/flags.make
 CMakeFiles/pg208_draw_project_master.dir/src/Image/CImage.cpp.obj: ../src/Image/CImage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pg208_draw_project_master.dir/src/Image/CImage.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pg208_draw_project_master.dir/src/Image/CImage.cpp.obj"
 	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pg208_draw_project_master.dir\src\Image\CImage.cpp.obj -c C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\src\Image\CImage.cpp
 
 CMakeFiles/pg208_draw_project_master.dir/src/Image/CImage.cpp.i: cmake_force
@@ -250,7 +274,7 @@ CMakeFiles/pg208_draw_project_master.dir/src/Image/CImage.cpp.obj.provides.build
 
 CMakeFiles/pg208_draw_project_master.dir/src/Image/CLigne.cpp.obj: CMakeFiles/pg208_draw_project_master.dir/flags.make
 CMakeFiles/pg208_draw_project_master.dir/src/Image/CLigne.cpp.obj: ../src/Image/CLigne.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pg208_draw_project_master.dir/src/Image/CLigne.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pg208_draw_project_master.dir/src/Image/CLigne.cpp.obj"
 	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pg208_draw_project_master.dir\src\Image\CLigne.cpp.obj -c C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\src\Image\CLigne.cpp
 
 CMakeFiles/pg208_draw_project_master.dir/src/Image/CLigne.cpp.i: cmake_force
@@ -274,7 +298,7 @@ CMakeFiles/pg208_draw_project_master.dir/src/Image/CLigne.cpp.obj.provides.build
 
 CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.obj: CMakeFiles/pg208_draw_project_master.dir/flags.make
 CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.obj: ../src/Image/CPixel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.obj"
 	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pg208_draw_project_master.dir\src\Image\CPixel.cpp.obj -c C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\src\Image\CPixel.cpp
 
 CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.i: cmake_force
@@ -298,7 +322,7 @@ CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.obj.provides.build
 
 CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj: CMakeFiles/pg208_draw_project_master.dir/flags.make
 CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj"
 	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pg208_draw_project_master.dir\src\main.cpp.obj -c C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\src\main.cpp
 
 CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.i: cmake_force
@@ -322,7 +346,7 @@ CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj.provides.build: CMakeF
 
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.obj: CMakeFiles/pg208_draw_project_master.dir/flags.make
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.obj: ../src/Formes/point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.obj"
 	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pg208_draw_project_master.dir\src\Formes\point.cpp.obj -c C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\src\Formes\point.cpp
 
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/point.cpp.i: cmake_force
@@ -351,6 +375,7 @@ pg208_draw_project_master_OBJECTS = \
 "CMakeFiles/pg208_draw_project_master.dir/src/Formes/forme.cpp.obj" \
 "CMakeFiles/pg208_draw_project_master.dir/src/Formes/cercle.cpp.obj" \
 "CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.obj" \
+"CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj" \
 "CMakeFiles/pg208_draw_project_master.dir/src/Formes/ligne.cpp.obj" \
 "CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.obj" \
 "CMakeFiles/pg208_draw_project_master.dir/src/Image/CImage.cpp.obj" \
@@ -367,6 +392,7 @@ pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/src/Form
 pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/src/Formes/forme.cpp.obj
 pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/src/Formes/cercle.cpp.obj
 pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.obj
+pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj
 pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/src/Formes/ligne.cpp.obj
 pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.obj
 pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/src/Image/CImage.cpp.obj
@@ -378,7 +404,7 @@ pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/build.ma
 pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/linklibs.rsp
 pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/objects1.rsp
 pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable pg208_draw_project_master.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable pg208_draw_project_master.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\pg208_draw_project_master.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -391,6 +417,7 @@ CMakeFiles/pg208_draw_project_master.dir/requires: CMakeFiles/pg208_draw_project
 CMakeFiles/pg208_draw_project_master.dir/requires: CMakeFiles/pg208_draw_project_master.dir/src/Formes/forme.cpp.obj.requires
 CMakeFiles/pg208_draw_project_master.dir/requires: CMakeFiles/pg208_draw_project_master.dir/src/Formes/cercle.cpp.obj.requires
 CMakeFiles/pg208_draw_project_master.dir/requires: CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.obj.requires
+CMakeFiles/pg208_draw_project_master.dir/requires: CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj.requires
 CMakeFiles/pg208_draw_project_master.dir/requires: CMakeFiles/pg208_draw_project_master.dir/src/Formes/ligne.cpp.obj.requires
 CMakeFiles/pg208_draw_project_master.dir/requires: CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.obj.requires
 CMakeFiles/pg208_draw_project_master.dir/requires: CMakeFiles/pg208_draw_project_master.dir/src/Image/CImage.cpp.obj.requires

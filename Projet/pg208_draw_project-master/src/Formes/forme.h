@@ -1,9 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <iostream>
-#include <string>
-using namespace std;
-
+#ifndef FORME
+#define FORME
 #include "../Image/CImage.h"
 
 class Forme{
@@ -22,3 +18,5 @@ class Forme{
 		virtual void dessiner(CImage* img) = 0;
 
 };
+
+#endif
