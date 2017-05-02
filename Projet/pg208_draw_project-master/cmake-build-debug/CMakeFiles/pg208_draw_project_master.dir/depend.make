@@ -7,6 +7,13 @@ CMakeFiles/pg208_draw_project_master.dir/src/Format/CBitmap.cpp.obj: ../src/Imag
 CMakeFiles/pg208_draw_project_master.dir/src/Format/CBitmap.cpp.obj: ../src/Image/CLigne.h
 CMakeFiles/pg208_draw_project_master.dir/src/Format/CBitmap.cpp.obj: ../src/Image/CPixel.h
 
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.obj: ../src/Formes/arc.cpp
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.obj: ../src/Formes/arc.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.obj: ../src/Formes/cercle.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.obj: ../src/Formes/forme.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.obj: ../src/Image/CImage.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.obj: ../src/Image/CLigne.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/arc.cpp.obj: ../src/Image/CPixel.h
 
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.obj: ../src/Formes/carre.cpp
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.obj: ../src/Formes/carre.h

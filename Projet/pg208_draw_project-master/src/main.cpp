@@ -29,7 +29,7 @@ int main(int argc, char * argv[]) {
         }
     }
 
-    Arc* myarc = new Arc(250,250,100,330,320,0,0,255,100,0);
+    Arc* myarc = new Arc(250,250,100,300,320,0,0,255,100,0);
     myarc->dessiner(img);
     delete(myarc);
 

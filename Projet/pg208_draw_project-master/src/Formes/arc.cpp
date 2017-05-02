@@ -6,7 +6,6 @@
 
 using namespace std;
 
-<<<<<<< HEAD
 int quartier(int angle){
 	if(angle <= 90){
 		return 1;
@@ -23,8 +22,6 @@ int quartier(int angle){
 
 }
 
-=======
->>>>>>> origin/master
 #include "arc.h"
 
 Arc::Arc():Cercle::Cercle(){
@@ -39,19 +36,13 @@ Arc::Arc(int _x,int _y,int _rayon,int _angle1,int _angle2,int _R,int _V,int _B,i
 }
 
 void Arc::dessiner(CImage* image){
-<<<<<<< HEAD
 
 	angle1 = angle1%361;
 	angle2 = angle2%361;	
-=======
-	float cos1 = cos(angle1*3.14/180.0f);
-	float cos2 = cos(angle2*3.14/180.0f);
->>>>>>> origin/master
 	
 	float sin1 = sin(angle1*3.14/180.0f);
 	float sin2 = sin(angle2*3.14/180.0f);
 	
-<<<<<<< HEAD
 	int quartier1 = quartier(angle1);
 	int quartier2 = quartier(angle2);
 	
@@ -428,34 +419,11 @@ void Arc::dessiner(CImage* image){
 	}
 	}
 	}
-=======
-	float maxs = (sin1>sin2)?sin1:sin2;
-	float mins = (sin1<sin2)?sin1:sin2;
-	
-	float maxc = (cos1>cos2)?cos1:cos2;
-	float minc = (cos1<cos2)?cos1:cos2;
-	
-	for(int i = (x - rayon - epaisseur) ; i <= (x+rayon + epaisseur) ; i++){
-		for(int j = (y - rayon - epaisseur) ; j <= (y+rayon+epaisseur) ; j++){
-			int cerc = ((i-x)*(i-x)+(j-y)*(j-y));
-			int boucle = abs(cerc - rayon*rayon);
-			if( boucle < rayon*epaisseur){
-				if(((i-x) > (minc*rayon)) && ((j-y) > (mins*rayon))){
-					CPixel* pix = image->getPixel(i,j);
-					int rouge   = (pix->Red()*(100-transparence)+transparence*R)/100;
-					int vert    = (pix->Green()*(100-transparence)+transparence*V)/100;
-					int bleu    = (pix->Blue()*(100-transparence)+transparence*B)/100;
-					pix->RGB(rouge,vert,bleu);
-				}
-			}
-			
-		}
-		
-	}
-
-
->>>>>>> origin/master
 }
 		
 		
-void resize(int echelle){}
+void Arc::resize(int echelle){
+	epaisseur = epaisseur*echelle;
+	rayon = rayon*echelle;
+
+}
