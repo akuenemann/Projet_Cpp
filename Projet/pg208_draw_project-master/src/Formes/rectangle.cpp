@@ -33,32 +33,43 @@ Rectangle::Rectangle(int _x, int _y, int _longueur, int _largeur, int _angled, i
 Rectangle::Rectangle(string definition){
     istringstream def(definition);
     string element;
+
     getline(def,element,':');
-    cout << element << endl;
+
     getline(def,element,',');
-    cout << element << endl;
     x = stoi(element);
+
     getline(def,element,',');
-    cout << element << endl;
     y = stoi(element);
+
     getline(def,element,',');
-    cout << element << endl;
     longueur = stoi(element);
+
     getline(def,element,',');
-    cout << element << endl;
     largeur = stoi(element);
+
     getline(def,element,',');
-    cout << element << endl;
-    vector<int> RVB = getCouleur(element);
-    R = RVB[0];
-    V = RVB[1];
-    B = RVB[2];
-    getline(def,element,';');
-    cout << element << endl;
+    angled = stoi(element);
+
+    getline(def,element,',');
+    R = stoi(element);
+
+    getline(def,element,',');
+    V = stoi(element);
+
+    getline(def,element,',');
+    B = stoi(element);
+
+    getline(def,element,',');
     transparence = stoi(element);
 
-    angled = 0;
-    z = 0;
+    getline(def,element,';');
+    z = stoi(element);
+
+    /*vector<int> RVB = getCouleur(element);
+    R = RVB[0];
+    V = RVB[1];
+    B = RVB[2];*/
 }
 
 Rectangle::~Rectangle() {}
@@ -96,6 +107,8 @@ void Rectangle::resize(int echelle) {
 
 RectangleS::RectangleS():Rectangle::Rectangle(){}
 RectangleS::RectangleS(int _x,int _y, int _longueur, int _largeur, int _angled, int _R,int _V,int _B,int _transparence, int _z):Rectangle::Rectangle(_x, _y, _longueur, _largeur, _angled, _R, _V, _B, _transparence, _z){}
+
+RectangleS::RectangleS(string definition):Rectangle::Rectangle(definition){}
 RectangleS::~RectangleS(){}
 
 void RectangleS::dessiner(CImage *image){
@@ -130,8 +143,4 @@ void RectangleS::dessiner(CImage *image){
             delete(l);
         }
     }
-
-
-
 }
-

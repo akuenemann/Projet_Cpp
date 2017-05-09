@@ -2,16 +2,17 @@
 #include <stdlib.h>
 #include <iostream>
 #include <string>
+#include <sstream>
 
 using namespace std;
 
 #include "triangle.h"
 
 Triangle::Triangle() {
-    int x1 = 0;
-    int x2 = 0;
-    int y1 = 0;
-    int y2 = 0;
+    x1 = 0;
+    x2 = 0;
+    y1 = 0;
+    y2 = 0;
 }
 
 Triangle::Triangle(int _x,int _y, int _x1, int _y1, int _x2, int _y2, int _R,int _V,int _B,int _transparence, int _z)
@@ -27,6 +28,46 @@ Triangle::Triangle(int _x,int _y, int _x1, int _y1, int _x2, int _y2, int _R,int
     B = _B;
     transparence = _transparence;
     z = _z;
+}
+
+Triangle::Triangle(string definition) {
+    istringstream def(definition);
+    string element;
+
+    getline(def, element, ':');
+
+    getline(def, element, ',');
+    x = stoi(element);
+
+    getline(def, element, ',');
+    y = stoi(element);
+
+    getline(def, element, ',');
+    x1 = stoi(element);
+
+    getline(def, element, ',');
+    y1 = stoi(element);
+
+    getline(def, element, ',');
+    x2 = stoi(element);
+
+    getline(def, element, ',');
+    y2 = stoi(element);
+
+    getline(def, element, ',');
+    R = stoi(element);
+
+    getline(def, element, ',');
+    V = stoi(element);
+
+    getline(def, element, ',');
+    B = stoi(element);
+
+    getline(def, element, ',');
+    transparence = stoi(element);
+
+    getline(def, element, ';');
+    z = stoi(element);
 }
 
 Triangle::~Triangle() {}

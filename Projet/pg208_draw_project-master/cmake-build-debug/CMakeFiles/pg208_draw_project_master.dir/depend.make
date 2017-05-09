@@ -23,6 +23,7 @@ CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.obj: ../src/Formes
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.obj: ../src/Image/CImage.h
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.obj: ../src/Image/CLigne.h
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.obj: ../src/Image/CPixel.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/carre.cpp.obj: ../src/Traitement/couleur.h
 
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/cercle.cpp.obj: ../src/Formes/cercle.cpp
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/cercle.cpp.obj: ../src/Formes/cercle.h

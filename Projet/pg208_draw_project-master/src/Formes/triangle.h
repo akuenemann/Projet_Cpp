@@ -13,6 +13,7 @@ class Triangle : public Forme{
 	public:
 		Triangle();
 		Triangle(int _x,int _y, int _x1, int _y1, int _x2, int _y2, int _R,int _V,int _B,int _transparence, int _z);
+		Triangle(string definition);
 		~Triangle();
 
 		void dessiner(CImage* image);

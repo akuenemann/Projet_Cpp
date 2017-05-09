@@ -25,6 +25,7 @@ class RectangleS : public Rectangle{
 	public:
 		RectangleS();
 		RectangleS(int _x,int _y, int _longueur, int _largeur, int _angled, int _R,int _V,int _B,int _transparence, int _z);
+		RectangleS(string definition);
 		~RectangleS();
 		void dessiner(CImage *image);
 };

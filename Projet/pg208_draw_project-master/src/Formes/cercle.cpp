@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <iostream>
 #include <string>
+#include <sstream>
 using namespace std;
 
 #include "cercle.h"
@@ -14,6 +15,38 @@ Cercle::Cercle():Forme::Forme(){
 Cercle::Cercle(int _x,int _y,int _rayon,int _R,int _V,int _B,int _transparence, int _z):Forme::Forme(_x, _y, _R, _V, _B, _transparence, _z){
 	rayon = _rayon;
 }
+
+Cercle::Cercle(string definition) {
+	istringstream def(definition);
+	string element;
+
+	getline(def, element, ':');
+
+	getline(def, element, ',');
+	x = stoi(element);
+
+	getline(def, element, ',');
+	y = stoi(element);
+
+	getline(def, element, ',');
+	rayon = stoi(element);
+
+	getline(def, element, ',');
+	R = stoi(element);
+
+	getline(def, element, ',');
+	V = stoi(element);
+
+	getline(def, element, ',');
+	B = stoi(element);
+
+	getline(def, element, ',');
+	transparence = stoi(element);
+
+	getline(def, element, ';');
+	z = stoi(element);
+}
+
 Cercle::~Cercle(){}
 
 void Cercle::dessiner(CImage* image){
@@ -44,6 +77,8 @@ void Cercle::resize(int echelle){
 
 
 CercleS::CercleS():Cercle::Cercle(){}
+
+CercleS::CercleS(string definition):Cercle::Cercle(definition){}
 
 CercleS::CercleS(int _x,int _y,int _rayon, int _R,int _V,int _B,int _transparence, int _z):Cercle::Cercle(_x, _y, _rayon, _R, _V, _B, _transparence, _z){}
 

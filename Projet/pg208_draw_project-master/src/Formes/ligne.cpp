@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include <sstream>
 
 #include "../Image/CImage.h"
 #include "ligne.h"
@@ -18,6 +19,40 @@ void swap(int* x, int* y){
 Ligne::Ligne(){
   x2 = 0;
   y2 = 0;
+}
+
+Ligne::Ligne(string definition){
+	istringstream def(definition);
+	string element;
+
+	getline(def, element, ':');
+
+	getline(def, element, ',');
+	x = stoi(element);
+
+	getline(def, element, ',');
+	y = stoi(element);
+
+	getline(def, element, ',');
+	x2 = stoi(element);
+
+	getline(def, element, ',');
+	y2 = stoi(element);
+
+	getline(def, element, ',');
+	R = stoi(element);
+
+	getline(def, element, ',');
+	V = stoi(element);
+
+	getline(def, element, ',');
+	B = stoi(element);
+
+	getline(def, element, ',');
+	transparence = stoi(element);
+
+	getline(def, element, ';');
+	z = stoi(element);
 }
 
 Ligne::Ligne(int _x1,int _y1,int _x2,int _y2,int _R,int _V,int _B,int _transparence,int _z):Forme::Forme(_x1, _y1,_R,_V,_B,_transparence,_z){

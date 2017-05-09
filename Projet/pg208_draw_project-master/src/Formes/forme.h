@@ -15,8 +15,9 @@ class Forme{
 		Forme(int _x, int _y, int _R, int _V, int _B, int _transparence, int _z);
 		~Forme();
 
+		int getz();
 		virtual void dessiner(CImage* img) = 0;
-
+		virtual void resize(int echelle) = 0;
 };
 
 #endif

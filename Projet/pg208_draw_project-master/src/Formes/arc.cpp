@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include <sstream>
 
 using namespace std;
 
@@ -34,6 +35,46 @@ Arc::Arc(int _x,int _y,int _rayon,int _angle1,int _angle2,int _R,int _V,int _B,i
 	angle2 = _angle2;
 
 }
+
+Arc::Arc(string definition) {
+	istringstream def(definition);
+	string element;
+
+	getline(def, element, ':');
+
+	getline(def, element, ',');
+	x = stoi(element);
+
+	getline(def, element, ',');
+	y = stoi(element);
+
+	getline(def, element, ',');
+	rayon = stoi(element);
+
+	getline(def, element, ',');
+	angle1 = stoi(element);
+
+	getline(def, element, ',');
+	angle2 = stoi(element);
+
+	getline(def, element, ',');
+	R = stoi(element);
+
+	getline(def, element, ',');
+	V = stoi(element);
+
+	getline(def, element, ',');
+	B = stoi(element);
+
+	getline(def, element, ',');
+	transparence = stoi(element);
+
+	getline(def, element, ';');
+	z = stoi(element);
+}
+
+
+Arc::~Arc(){}
 
 void Arc::dessiner(CImage* image){
 
@@ -83,8 +124,7 @@ void Arc::dessiner(CImage* image){
 	else{
 		max4 += (sin2)*rayon;
 	}
-	
-	printf("max : %d, %d, %d, %d, min : %d, %d, %d, %d\n", max1, max2, max3, max4, min1, min2, min3, min4);
+
 	
 	
 	
@@ -231,8 +271,7 @@ void Arc::dessiner(CImage* image){
 		q3 = 1;
 		q4 = 1;
 	}
-	
-	printf("q : %d, %d, %d, %d\n", q1, q2, q3, q4);
+
 	
 	//Quartier 1
 	if(q1){

@@ -14,6 +14,7 @@ class Traitement{
 		Traitement(const char* list_obj);
 		~Traitement();
 		void tri();
+        void resize(int echelle);
 		void dessiner(CImage* img);
 };
 

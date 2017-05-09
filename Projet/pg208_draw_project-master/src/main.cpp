@@ -5,6 +5,8 @@
 #include <string>
 
 
+// rapport a rendre avant lundi 17h papier n. vrit, uml, cas utilisation, sequence, classe, le moins de code source possible. 20 pages environs avec schéma   8h20!!!
+
 using namespace std;
 
 #include "./Format/CBitmap.h"
@@ -27,13 +29,18 @@ int main(int argc, char * argv[]) {
 
     cout << "(II) CBitmap object creation" << endl;
     CBitmap *image = new CBitmap();
-    string filename2 = "Sortie.bmp";
-
+    string filename2 = argv[2];
+    int height = 500;
+    int width = 500;
+    if(argc == 4){
+        height = height*atoi(argv[3]);
+        width = width*atoi(argv[3]);
+    }
     cout << "(II) CImage pointer extraction" << endl;
-    CImage   *img = new CImage(500, 500);
+    CImage   *img = new CImage(width, height);
 
-    for (int j = 0; j<500; j++) {
-        for (int i = 0; i < 500; i++) {
+    for (int j = 0; j<width; j++) {
+        for (int i = 0; i < height; i++) {
             CPixel *p = img->getPixel(i, j);
             p->RGB(255, 255, 255);
         }
@@ -62,7 +69,15 @@ int main(int argc, char * argv[]) {
     delete(mytriangle);
 */
 
-    Traitement* myfile = new Traitement("dessin.txt");
+
+
+
+
+    Traitement* myfile = new Traitement(argv[1]);
+    myfile->tri();
+    if (argc == 4){
+        myfile->resize(atoi(argv[3]));
+    }
     myfile->dessiner(img);
     delete(myfile);
 

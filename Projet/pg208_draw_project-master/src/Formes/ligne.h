@@ -10,6 +10,7 @@ class Ligne : public Forme{
 	public:
 		Ligne();
 		Ligne(int _x1,int _y1,int _x2,int _y2,int _R,int _V,int _B,int _transparence, int _z);
+		Ligne(string definition);
 		~Ligne();
 
 		void dessiner(CImage* image);

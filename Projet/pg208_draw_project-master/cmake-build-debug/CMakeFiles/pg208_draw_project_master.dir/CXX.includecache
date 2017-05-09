@@ -121,6 +121,8 @@ string
 -
 cmath
 -
+sstream
+-
 arc.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/arc.h
 
@@ -135,8 +137,14 @@ stdlib.h
 -
 iostream
 -
+sstream
+-
 string
 -
+vector
+-
+../Traitement/couleur.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Traitement/couleur.h
 carre.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/carre.h
 
@@ -152,6 +160,8 @@ stdlib.h
 iostream
 -
 string
+-
+sstream
 -
 cercle.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/cercle.h
@@ -187,6 +197,8 @@ string
 -
 cmath
 -
+sstream
+-
 ../Image/CImage.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Image/CImage.h
 ligne.h
@@ -204,6 +216,8 @@ stdlib.h
 iostream
 -
 string
+-
+sstream
 -
 point.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/point.h
@@ -242,6 +256,8 @@ stdlib.h
 iostream
 -
 string
+-
+sstream
 -
 triangle.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/triangle.h
