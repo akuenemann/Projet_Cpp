@@ -61,6 +61,7 @@ CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.obj: ../src/Fo
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.obj: ../src/Image/CImage.h
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.obj: ../src/Image/CLigne.h
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.obj: ../src/Image/CPixel.h
+CMakeFiles/pg208_draw_project_master.dir/src/Formes/rectangle.cpp.obj: ../src/Traitement/couleur.h
 
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj: ../src/Formes/forme.h
 CMakeFiles/pg208_draw_project_master.dir/src/Formes/triangle.cpp.obj: ../src/Formes/ligne.h
@@ -81,6 +82,9 @@ CMakeFiles/pg208_draw_project_master.dir/src/Image/CLigne.cpp.obj: ../src/Image/
 
 CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.obj: ../src/Image/CPixel.cpp
 CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.obj: ../src/Image/CPixel.h
+
+CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj: ../src/Traitement/couleur.cpp
+CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj: ../src/Traitement/couleur.h
 
 CMakeFiles/pg208_draw_project_master.dir/src/Traitement/traitement.cpp.obj: ../src/Formes/arc.h
 CMakeFiles/pg208_draw_project_master.dir/src/Traitement/traitement.cpp.obj: ../src/Formes/carre.h

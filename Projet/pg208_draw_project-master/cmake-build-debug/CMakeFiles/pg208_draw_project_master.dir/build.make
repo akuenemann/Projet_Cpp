@@ -392,6 +392,30 @@ CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj.provides: CMakeFiles/p
 CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj.provides.build: CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj
 
 
+CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj: CMakeFiles/pg208_draw_project_master.dir/flags.make
+CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj: ../src/Traitement/couleur.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj"
+	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pg208_draw_project_master.dir\src\Traitement\couleur.cpp.obj -c C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\src\Traitement\couleur.cpp
+
+CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.i"
+	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\src\Traitement\couleur.cpp > CMakeFiles\pg208_draw_project_master.dir\src\Traitement\couleur.cpp.i
+
+CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.s"
+	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\src\Traitement\couleur.cpp -o CMakeFiles\pg208_draw_project_master.dir\src\Traitement\couleur.cpp.s
+
+CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj.requires:
+
+.PHONY : CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj.requires
+
+CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj.provides: CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj.provides.build
+.PHONY : CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj.provides
+
+CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj.provides.build: CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj
+
+
 # Object files for target pg208_draw_project_master
 pg208_draw_project_master_OBJECTS = \
 "CMakeFiles/pg208_draw_project_master.dir/src/Format/CBitmap.cpp.obj" \
@@ -407,7 +431,8 @@ pg208_draw_project_master_OBJECTS = \
 "CMakeFiles/pg208_draw_project_master.dir/src/Image/CImage.cpp.obj" \
 "CMakeFiles/pg208_draw_project_master.dir/src/Image/CLigne.cpp.obj" \
 "CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.obj" \
-"CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj"
+"CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj" \
+"CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj"
 
 # External object files for target pg208_draw_project_master
 pg208_draw_project_master_EXTERNAL_OBJECTS =
@@ -426,11 +451,12 @@ pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/src/Imag
 pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/src/Image/CLigne.cpp.obj
 pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.obj
 pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj
+pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj
 pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/build.make
 pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/linklibs.rsp
 pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/objects1.rsp
 pg208_draw_project_master.exe: CMakeFiles/pg208_draw_project_master.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable pg208_draw_project_master.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Anthony\Documents\Cours\Inge\S8\PG208\Projet_Cpp\Projet\pg208_draw_project-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable pg208_draw_project_master.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\pg208_draw_project_master.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -452,6 +478,7 @@ CMakeFiles/pg208_draw_project_master.dir/requires: CMakeFiles/pg208_draw_project
 CMakeFiles/pg208_draw_project_master.dir/requires: CMakeFiles/pg208_draw_project_master.dir/src/Image/CLigne.cpp.obj.requires
 CMakeFiles/pg208_draw_project_master.dir/requires: CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.obj.requires
 CMakeFiles/pg208_draw_project_master.dir/requires: CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj.requires
+CMakeFiles/pg208_draw_project_master.dir/requires: CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj.requires
 
 .PHONY : CMakeFiles/pg208_draw_project_master.dir/requires
 

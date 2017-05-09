@@ -4,6 +4,7 @@
 #include <vector>
 #include <string>
 
+
 using namespace std;
 
 #include "./Format/CBitmap.h"
@@ -37,8 +38,8 @@ int main(int argc, char * argv[]) {
             p->RGB(255, 255, 255);
         }
     }
-
-    Arc* myarc = new Arc(250,250,100,150,320,0,0,255,100,0);
+/*
+    Arc* myarc = new Arc(250,250,100,150,300,0,0,255,100,0);
     myarc->dessiner(img);
     delete(myarc);
     Carre* mycarre = new Carre(1,1,100,0,0,0,255,100,0);
@@ -59,8 +60,11 @@ int main(int argc, char * argv[]) {
     Triangle* mytriangle = new Triangle(1,1,5,30,70,100,0,0,255,100,0);
     mytriangle->dessiner(img);
     delete(mytriangle);
+*/
 
-
+    Traitement* myfile = new Traitement("dessin.txt");
+    myfile->dessiner(img);
+    delete(myfile);
 
     image->setImage( img );
     cout << "(II) CBitmap image saving" << endl;

@@ -87,7 +87,7 @@ string
 -
 
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Traitement/traitement.h
-c++/4.8.3/vector
+vector
 -
 ../Formes/forme.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/./Formes/forme.h
@@ -221,10 +221,14 @@ iostream
 -
 string
 -
-c++/4.8.3/cmath
+sstream
+-
+cmath
 -
 rectangle.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/rectangle.h
+../Traitement/couleur.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Traitement/couleur.h
 
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/rectangle.h
 ligne.h
@@ -238,8 +242,6 @@ stdlib.h
 iostream
 -
 string
--
-c++/4.8.3/cmath
 -
 triangle.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/triangle.h
@@ -294,6 +296,28 @@ iostream
 string
 -
 
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Traitement/couleur.cpp
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+sstream
+-
+cmath
+-
+couleur.h
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Traitement/couleur.h
+
+C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Traitement/couleur.h
+string
+-
+vector
+-
+
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Traitement/traitement.cpp
 stdio.h
 -
@@ -307,7 +331,9 @@ cmath
 -
 fstream
 -
-c++/4.8.3/sstream
+sstream
+-
+algorithm
 -
 traitement.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Traitement/traitement.h
@@ -329,7 +355,7 @@ C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_proj
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/triangle.h
 
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Traitement/traitement.h
-c++/4.8.3/vector
+vector
 -
 ../Formes/forme.h
 C:/Users/Anthony/Documents/Cours/Inge/S8/PG208/Projet_Cpp/Projet/pg208_draw_project-master/src/Formes/forme.h

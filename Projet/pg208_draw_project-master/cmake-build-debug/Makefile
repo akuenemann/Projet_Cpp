@@ -446,6 +446,33 @@ src/Image/CPixel.cpp.s:
 	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.s
 .PHONY : src/Image/CPixel.cpp.s
 
+src/Traitement/couleur.obj: src/Traitement/couleur.cpp.obj
+
+.PHONY : src/Traitement/couleur.obj
+
+# target to build an object file
+src/Traitement/couleur.cpp.obj:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj
+.PHONY : src/Traitement/couleur.cpp.obj
+
+src/Traitement/couleur.i: src/Traitement/couleur.cpp.i
+
+.PHONY : src/Traitement/couleur.i
+
+# target to preprocess a source file
+src/Traitement/couleur.cpp.i:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.i
+.PHONY : src/Traitement/couleur.cpp.i
+
+src/Traitement/couleur.s: src/Traitement/couleur.cpp.s
+
+.PHONY : src/Traitement/couleur.s
+
+# target to generate assembly for a file
+src/Traitement/couleur.cpp.s:
+	$(MAKE) -f CMakeFiles\pg208_draw_project_master.dir\build.make CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.s
+.PHONY : src/Traitement/couleur.cpp.s
+
 src/Traitement/traitement.obj: src/Traitement/traitement.cpp.obj
 
 .PHONY : src/Traitement/traitement.obj
@@ -545,6 +572,9 @@ help:
 	@echo ... src/Image/CPixel.obj
 	@echo ... src/Image/CPixel.i
 	@echo ... src/Image/CPixel.s
+	@echo ... src/Traitement/couleur.obj
+	@echo ... src/Traitement/couleur.i
+	@echo ... src/Traitement/couleur.s
 	@echo ... src/Traitement/traitement.obj
 	@echo ... src/Traitement/traitement.i
 	@echo ... src/Traitement/traitement.s

@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/pg208_draw_project_master.dir/src/Image/CLigne.cpp.obj"
   "CMakeFiles/pg208_draw_project_master.dir/src/Image/CPixel.cpp.obj"
   "CMakeFiles/pg208_draw_project_master.dir/src/main.cpp.obj"
+  "CMakeFiles/pg208_draw_project_master.dir/src/Traitement/couleur.cpp.obj"
   "pg208_draw_project_master.pdb"
   "pg208_draw_project_master.exe"
   "pg208_draw_project_master.exe.manifest"

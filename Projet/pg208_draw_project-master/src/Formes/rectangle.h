@@ -1,6 +1,7 @@
 #ifndef RECTANGLE
 #define RECTANGLE
 
+
 #include "ligne.h"
 
 
@@ -12,6 +13,7 @@ class Rectangle : public Forme{
 	public:
 		Rectangle();
 		Rectangle(int _x,int _y, int _longueur, int _largeur, int _angled, int _R,int _V,int _B,int _transparence, int _z);
+		Rectangle(string definition);
 		~Rectangle();
 
 		void dessiner(CImage* image);

@@ -7,7 +7,7 @@
 
 class Traitement{
 	private:
-		vector<Forme> v;
+		vector<Forme*> v;
 		
 	public:
 		Traitement();

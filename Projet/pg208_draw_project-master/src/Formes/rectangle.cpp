@@ -2,11 +2,13 @@
 #include <stdlib.h>
 #include <iostream>
 #include <string>
+#include <sstream>
 #include <cmath>
 
 using namespace std;
 
 #include "rectangle.h"
+#include "../Traitement/couleur.h"
 
 Rectangle::Rectangle() {
     angled = 0;
@@ -26,6 +28,37 @@ Rectangle::Rectangle(int _x, int _y, int _longueur, int _largeur, int _angled, i
     B = _B;
     transparence = _transparence;
     z = _z;
+}
+
+Rectangle::Rectangle(string definition){
+    istringstream def(definition);
+    string element;
+    getline(def,element,':');
+    cout << element << endl;
+    getline(def,element,',');
+    cout << element << endl;
+    x = stoi(element);
+    getline(def,element,',');
+    cout << element << endl;
+    y = stoi(element);
+    getline(def,element,',');
+    cout << element << endl;
+    longueur = stoi(element);
+    getline(def,element,',');
+    cout << element << endl;
+    largeur = stoi(element);
+    getline(def,element,',');
+    cout << element << endl;
+    vector<int> RVB = getCouleur(element);
+    R = RVB[0];
+    V = RVB[1];
+    B = RVB[2];
+    getline(def,element,';');
+    cout << element << endl;
+    transparence = stoi(element);
+
+    angled = 0;
+    z = 0;
 }
 
 Rectangle::~Rectangle() {}
