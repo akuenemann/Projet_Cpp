@@ -91,6 +91,12 @@ void Triangle::dessiner(CImage *image) {
 
 void Triangle::resize(int echelle) {
     epaisseur = epaisseur * echelle;
+    x = x*echelle;
+    x1 = x1*echelle;
+    x2 = x2*echelle;
+    y = y*echelle;
+    y1 = y1*echelle;
+    y2 = y2*echelle;
 }
 
 TriangleS::TriangleS():Triangle::Triangle(){}
