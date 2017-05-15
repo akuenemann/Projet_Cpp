@@ -42,7 +42,7 @@ int main(int argc, char * argv[]) {
     for (int j = 0; j<width; j++) {
         for (int i = 0; i < height; i++) {
             CPixel *p = img->getPixel(i, j);
-            p->RGB(0, 0, 0);
+            p->RGB(255, 255, 255);
         }
     }
 /*
