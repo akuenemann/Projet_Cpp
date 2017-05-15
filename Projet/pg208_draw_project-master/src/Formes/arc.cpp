@@ -31,8 +31,8 @@ Arc::Arc():Cercle::Cercle(){
 }
 
 Arc::Arc(int _x,int _y,int _rayon,int _angle1,int _angle2,int _R,int _V,int _B,int _transparence, int _z):Cercle::Cercle(_x, _y, _rayon, _R, _V, _B, _transparence, _z){
-	angle1 = _angle1;
-	angle2 = _angle2;
+	angle1 = 360-_angle2;
+	angle2 = 360-_angle1;
 
 }
 
@@ -52,10 +52,10 @@ Arc::Arc(string definition) {
 	rayon = stoi(element);
 
 	getline(def, element, ',');
-	angle1 = stoi(element);
+	angle2 = 360-stoi(element);
 
 	getline(def, element, ',');
-	angle2 = stoi(element);
+	angle1 = 360-stoi(element);
 
 	getline(def, element, ',');
 	R = stoi(element);

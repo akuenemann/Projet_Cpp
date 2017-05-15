@@ -87,6 +87,11 @@ void Rectangle::dessiner(CImage *image) {
     Ligne* l3 = new Ligne(x + d, y - a, x + b + d, y - a + c, R, V, B, transparence, z);
     Ligne* l4 = new Ligne(x + b, y + c, x + b + d, y - a + c, R, V, B, transparence, z);
 
+    l1->set_epaisseur(epaisseur);
+    l2->set_epaisseur(epaisseur);
+    l3->set_epaisseur(epaisseur);
+    l4->set_epaisseur(epaisseur);
+
     l1->dessiner(image);
     l2->dessiner(image);
     l3->dessiner(image);
@@ -103,6 +108,8 @@ void Rectangle::resize(int echelle) {
     longueur = longueur * echelle;
     largeur = largeur * echelle;
     epaisseur = epaisseur * echelle;
+    x = x*echelle;
+    y = y*echelle;
 }
 
 RectangleS::RectangleS():Rectangle::Rectangle(){}

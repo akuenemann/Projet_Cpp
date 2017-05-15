@@ -126,6 +126,10 @@ void Ligne::dessiner(CImage* image){
 
 void Ligne::resize(int echelle){
 	epaisseur = epaisseur * echelle;
+	x = x*echelle;
+	y = y*echelle;
+	x2 = x2*echelle;
+	y2 = y2*echelle;
 }
 
 void Ligne::set_coord(int xi, int yi, int xf, int yf ){
@@ -133,4 +137,9 @@ void Ligne::set_coord(int xi, int yi, int xf, int yf ){
     y = yi;
     x2 = xf;
     y2 = yf;
+}
+
+
+void Ligne::set_epaisseur(int epais){
+	epaisseur = epais;
 }

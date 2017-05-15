@@ -71,6 +71,8 @@ void Cercle::dessiner(CImage* image){
 void Cercle::resize(int echelle){
 	epaisseur = epaisseur*echelle;
 	rayon     = rayon*echelle;
+	x = x*echelle;
+	y = y*echelle;
 
 }
 

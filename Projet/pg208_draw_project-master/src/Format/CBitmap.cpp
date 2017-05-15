@@ -175,10 +175,10 @@ bool CBitmap::SaveBMP(string name){
 
                 /* On va maintenant creer l'image  proprement parler ... */
                 char t[3];
-                for(int y=0; y<biHeight; y++){
+                for(int y=1; y<=biHeight; y++){
                         CLigne *ligne = image->getLigne(image->size()-y-1);
                         for(int x=0; x<biWidth; x++){
-                            CPixel *p = image->getLigne(y)->getPixel(x);
+                            CPixel *p = image->getLigne(biHeight-y)->getPixel(x);
                             //CPixel* p = ligne->getPixel(x);
                             t[0]= p->Blue();
                             t[1]= p->Green();

@@ -30,8 +30,8 @@ int main(int argc, char * argv[]) {
     cout << "(II) CBitmap object creation" << endl;
     CBitmap *image = new CBitmap();
     string filename2 = argv[2];
-    int height = 500;
-    int width = 500;
+    int height = 1920;
+    int width = 1080;
     if(argc == 4){
         height = height*atoi(argv[3]);
         width = width*atoi(argv[3]);
@@ -42,7 +42,7 @@ int main(int argc, char * argv[]) {
     for (int j = 0; j<width; j++) {
         for (int i = 0; i < height; i++) {
             CPixel *p = img->getPixel(i, j);
-            p->RGB(255, 255, 255);
+            p->RGB(0, 0, 0);
         }
     }
 /*
@@ -68,9 +68,6 @@ int main(int argc, char * argv[]) {
     mytriangle->dessiner(img);
     delete(mytriangle);
 */
-
-
-
 
 
     Traitement* myfile = new Traitement(argv[1]);
